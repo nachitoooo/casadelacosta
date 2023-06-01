@@ -452,7 +452,6 @@ body,
 .carousel-inner .item {
     height: 100%;
 }
-
 .item:nth-child(1) {
     background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/HZZKGVVJ6I.jpg');
     background-size: cover;
@@ -461,14 +460,14 @@ body,
 }
 
 .item:nth-child(2) {
-    background: url('patioExterno.jpg');
+    background: url('images/patioExterno.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .item:nth-child(3) {
-    background: url('cocina1.jpg');
+    background: url('images/cocina1.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
