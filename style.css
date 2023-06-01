@@ -359,25 +359,22 @@ h3 {
 }
 
 .iconscontainer img {
-    margin: 0 10px;
+    margin: 0 8px;
 }
 
 .styledcontainer h3 {
     color: #ccc;
 }
-
-
-
-
-
+.mail-logo{
+    width: 33px;
+    height: 35px;
+}
 
 
 
 
 
 /* sliderslidersliderslidersliderslidersliderslidersliderslidersliderslider */
-
-
 
 
 body {
