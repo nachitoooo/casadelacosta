@@ -21,10 +21,11 @@ footer {
     background: #0c0d0e;
 }
 
+
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)), url(casalacosta.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, .7), rgba(4, 9, 30, .7)), url(images/casalacosta.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -239,8 +240,8 @@ h3 {
     .row {
         flex-direction: column;
     }
-}
 
+}
 
 .casa {
     width: 100%;
@@ -318,15 +319,18 @@ h3 {
 .donaciones-col p {
     padding: 0;
 }
+
 @media (max-width: 700px) {
     .donaciones-col {
         flex-basis: calc(33.33% - 10px);
         margin: 5px;
     }
+
     .donaciones-col:nth-child(2) {
         order: 3;
     }
 }
+
 /* -----contacto---- */
 .contacto {
     margin: 100px auto;
@@ -348,6 +352,7 @@ h3 {
 @media (max-width:700px) {
     .contact h1 {
         font-size: 24px;
+
     }
 }
 
@@ -372,7 +377,8 @@ h3 {
 .styledcontainer h3 {
     color: #ccc;
 }
-.mail-logo{
+
+.mail-logo {
     width: 33px;
     height: 35px;
 }
@@ -383,10 +389,6 @@ h3 {
 
 /* sliderslidersliderslidersliderslidersliderslidersliderslidersliderslider */
 
-
-body {
-    font-family: 'Lato', sans-serif;
-}
 
 .carousel-fade .carousel-inner .item {
     opacity: 0;
@@ -449,6 +451,13 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.carousel-caption p {
+    font-size: 17px;
+    color: #ebebeb;
+    /* Para navegadores basados en WebKit, como Chrome y Safari */
+    border: 2px #0c0d0e;
+}
+
 html,
 body,
 .carousel,
@@ -458,35 +467,35 @@ body,
 }
 
 .item:nth-child(1) {
-    background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/HZZKGVVJ6I.jpg');
-    background-size: cover;
+    background: url('images/salaEstudio1.jpg');
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .item:nth-child(2) {
-    background: url('patioExterno.jpg');
-    background-size: cover;
+    background: url('images/patioExterno.jpg');
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .item:nth-child(3) {
-    background: url('cocina1.jpg');
-    background-size: cover;
+    background: url('images/cocina1.jpg');
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .item:nth-child(4) {
-    background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PU9HHZB5QW.jpg');
-    background-size: cover;
+    background: url('images/patio2.jpg');
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .item:nth-child(5) {
-    background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PU9HHZB5QW.jpg');
+    background: url('images/casa2.jpg');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
