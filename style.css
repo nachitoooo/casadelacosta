@@ -182,6 +182,10 @@ nav img {
     font-weight: 600;
     color: #ccc;
 }
+.donaciones p{
+    font-weight: 200;
+    font-size: 17px;
+}
 
 
 /*         .mascota */
@@ -229,7 +233,7 @@ p {
 
 .row-col {
     flex-basis: 31%;
-    background: #28304C;
+    background: #152c24;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
