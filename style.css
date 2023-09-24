@@ -450,7 +450,10 @@ h3 {
     height: 31px;
 }
 
-
+.ig-logo{
+    width: 24px;
+    height: 24px;
+}
 
 
 
@@ -516,12 +519,12 @@ h3 {
 .carousel-caption h3 {
     font-size: 30px;
     font-family: 'Lato', sans-serif;
+    border: 2px #0c0d0e;
 }
 
 .carousel-caption p {
     font-size: 17px;
     color: #ebebeb;
-    /* Para navegadores basados en WebKit, como Chrome y Safari */
     border: 2px #0c0d0e;
 }
 
@@ -532,38 +535,39 @@ body,
 .carousel-inner .item {
     height: 100%;
 }
-
 .item:nth-child(1) {
     background: url('images/salaEstudio1.jpg');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
-
 .item:nth-child(2) {
-    background: url('images/patioExterno.jpg');
+    background: url('images/patio1.png');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
-
 .item:nth-child(3) {
+    background: url('images/fisico.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.item:nth-child(4) {
     background: url('images/cocina1.jpg');
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
-
-.item:nth-child(4) {
-    background: url('images/patio2.jpg');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
 .item:nth-child(5) {
     background: url('images/casa2.jpg');
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.item:nth-child(6) {
+    background: url('images/patioInterno.jpg');
+    background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
 }
